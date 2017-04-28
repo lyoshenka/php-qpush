@@ -1,0 +1,55 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "3aabb8ba47f0cfa481bfdf7f09e1d5e8",
+    "packages": [
+        {
+            "name": "lyoshenka/curl",
+            "version": "v1.0.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/lyoshenka/curl.git",
+                "reference": "43f02817994785a8f931d1ecb23fe093ca73b7ac"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/lyoshenka/curl/zipball/43f02817994785a8f931d1ecb23fe093ca73b7ac",
+                "reference": "43f02817994785a8f931d1ecb23fe093ca73b7ac",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "php": ">=5.6"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "lyoshenka\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Alex Grintsvayg",
+                    "email": "alex@grin.io"
+                }
+            ],
+            "description": "A better way to cURL",
+            "time": "2017-03-05T18:41:18+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

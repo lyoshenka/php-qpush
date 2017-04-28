@@ -1,0 +1,5 @@
+{
+    "require": {
+        "lyoshenka/curl": "^1.0"
+    }
+}
